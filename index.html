@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Моё путешествие в Сеул</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #111827, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 22px;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #2563eb;
+            font-size: 30px;
+        }
+
+        .photos {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .photos img {
+            width: 31%;
+            min-width: 250px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .photos img:hover {
+            transform: scale(1.04);
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            background: #111827;
+            color: white;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 34px;
+            }
+
+            .photos img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🇰🇷 Моё путешествие в Сеул</h1>
+    <p>Южная Корея — культура, технологии и красивые места</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>🌆 О моём путешествии</h2>
+
+        <div class="photos">
+
+            <img src="https://images.unsplash.com/photo-1538485399081-7c897d3b2f9f"
+                 alt="Сеул">
+
+            <img src="https://images.unsplash.com/photo-1534274867514-d5b47ef89ed7"
+                 alt="Сеул ночью">
+
+            <img src="https://images.unsplash.com/photo-1546874177-9e664107314e"
+                 alt="Корея">
+
+        </div>
+
+        <p>
+            Я хочу посетить Сеул — столицу Южной Кореи.
+            Мне интересны корейская культура, современные здания,
+            история и красивые места города.
+        </p>
+    </section>
+
+
+    <section>
+        <h2>📍 Места, которые я хочу посетить</h2>
+
+        <ul>
+            <li>🏯 Дворец Кёнбоккун</li>
+            <li>🗼 N Seoul Tower</li>
+            <li>🛍️ Мёндон</li>
+            <li>🌊 Река Хан</li>
+            <li>🏙️ Каннам</li>
+        </ul>
+    </section>
+
+
+    <section>
+        <h2>✈️ Мои планы</h2>
+
+        <ol>
+            <li>Приехать в Сеул</li>
+            <li>Посетить достопримечательности</li>
+            <li>Попробовать корейскую еду</li>
+            <li>Погулять по городу</li>
+            <li>Сделать фотографии</li>
+        </ol>
+    </section>
+
+
+    <section>
+        <h2>🔗 Полезные ссылки</h2>
+
+        <div class="links">
+
+            <a href="https://www.google.com/maps/place/Seoul,+South+Korea"
+               target="_blank">
+                🗺️ Google Maps — Сеул
+            </a>
+
+            <a href="https://ru.wikipedia.org/wiki/Сеул"
+               target="_blank">
+                📖 Википедия — Сеул
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+
+<footer>
+    <p>🇰🇷 Моё путешествие в Сеул © 2026</p>
+</footer>
+
+</body>
+</html>
